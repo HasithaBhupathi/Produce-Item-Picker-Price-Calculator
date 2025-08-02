@@ -2,13 +2,13 @@
 
 This app lets users create a custom shopping list of fruits and vegetables by selecting items, 
 quantities, and discounts. It calculates the total price, total discount, and final price. You can 
-also add or remove items, and submit feedback, which is saved for future review.
+also add or remove items.
 
 ###################################### User Manual ##################################################
 
 Step 1. Make a new folder (eg, Produce Item Picker & Price Calculator)  for our application.
 Step 2. Copy our application files (App.py, perant.py, child.py, data.py, work_space.py, Fruit Prices
-        2022.csv, Vegetable_Prices_2022.csv, feedback.csv, requirements.txt, and Readme.txt, ) into 
+        2022.csv, Vegetable_Prices_2022.csv, requirements.txt, and Readme.txt, ) into 
         that folder.
 Step 3. In that folder, create a virtual environment using the command "python -m venv venv_" on the
         terminal. This creates a folder named venv_ containing the isolated Python environment.
