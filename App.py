@@ -201,7 +201,7 @@ Item.all_vegetables = []
 st.sidebar.title("About this")
 st.sidebar.write("""This app lets users create a custom shopping list of fruits and vegetables by selecting items, 
                 quantities, and discounts. It calculates the total price, total discount, and final price. You can also
-                add or remove items, and submit feedback, which is saved for future review.""")
+                add or remove items.""")
 
 
 """
@@ -234,3 +234,4 @@ if send_button:
     
 
     
+
