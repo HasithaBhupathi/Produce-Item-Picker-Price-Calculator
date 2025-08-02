@@ -203,35 +203,8 @@ st.sidebar.write("""This app lets users create a custom shopping list of fruits 
                 quantities, and discounts. It calculates the total price, total discount, and final price. You can also
                 add or remove items.""")
 
-
-"""
-#### take user feedback and save these feedbacks in csv file.
-st.write("-----------------------------------------------------------------")
-feedback = str(st.text_area("Put your feedback here"))
-send_button = st.button("Send")
-
-exesting_feedback_dataframe = pd.read_csv("feedback.csv")
-
-if send_button:
-    new_feedback = pd.DataFrame({
-        "feedback": [feedback]
-    })
-    
-    updated_feedback_dataframe = pd.concat([exesting_feedback_dataframe, new_feedback], ignore_index=True)   
-    updated_feedback_dataframe.to_csv("feedback.csv",index = False)    
-    
-    #### index = Fase in .to_csv() means don't write the dataframe index in .csv file then our csv file is below as:
-    #### item,price
-    #### Apple,100
-    #### Carrot,50
-    
-    #### if index = True then below as:
-    #### ,index,item,price
-    ####  0,Apple,100
-    ####  1,Carrot,50
-"""
-    
     
 
     
+
 
