@@ -204,7 +204,7 @@ st.sidebar.write("""This app lets users create a custom shopping list of fruits 
                 add or remove items, and submit feedback, which is saved for future review.""")
 
 
-
+"""
 #### take user feedback and save these feedbacks in csv file.
 st.write("-----------------------------------------------------------------")
 feedback = str(st.text_area("Put your feedback here"))
@@ -229,7 +229,8 @@ if send_button:
     #### ,index,item,price
     ####  0,Apple,100
     ####  1,Carrot,50
+"""
+    
+    
 
-    
-    
     
